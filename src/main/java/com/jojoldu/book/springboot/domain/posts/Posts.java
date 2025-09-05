@@ -11,8 +11,10 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+// 롬복의 어노테이션
 @Getter
 @NoArgsConstructor
+//JPA의 어노테이션
 @Entity
 public class Posts extends BaseTimeEntity {
 

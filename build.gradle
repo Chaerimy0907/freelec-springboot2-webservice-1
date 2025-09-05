@@ -10,7 +10,7 @@ version '1.0.4-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
 //sourceCompatibility = 1.8
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17 // Java 17로 업그레이드 (Spring Boot 3.x 최소 요구사항)
+    JavaVersion.VERSION_17 // Java 17로 업그레이드 (Spring Boot 3.x 최소 요구사항)
 }
 
 // 원격 저장소

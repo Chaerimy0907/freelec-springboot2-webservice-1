@@ -1,6 +1,5 @@
 package com.jojoldu.book.springboot.web;
 
-import com.jojoldu.book.springboot.HelloController;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
