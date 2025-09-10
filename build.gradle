@@ -40,7 +40,7 @@ dependencies {
     // 스프링 부트용 Spring Data Jpa 추상화 라이브러리
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
     // 인메모리형 관계형 데이터 베이스
-    implementation('com.h2database:h2')
+    testImplementation('com.h2database:h2')
     // 머스타치 스타터 의존성 등록
     implementation('org.springframework.boot:spring-boot-starter-mustache')
 
@@ -54,6 +54,6 @@ dependencies {
 
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 
-    implementation 'org.mariadb.jdbc:mariadb-java-client'
+    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
 }
 
