@@ -14,9 +14,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 // 여러 스프링 테스트 어노테이션 중 web에 집중할 수 있는 어노테이션
 @WebMvcTest(controllers = HelloController.class,
-            excludeFilters = {
-            @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = SecurityConfig.class)
-            })
+        excludeFilters = {
+                @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = SecurityConfig.class)
+        })
 public class HelloControllerTest {
     // 스프링이 관리하는 빈(Bean)을 주입 받음
     @Autowired
