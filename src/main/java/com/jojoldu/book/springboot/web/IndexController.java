@@ -5,7 +5,7 @@ import com.jojoldu.book.springboot.config.auth.dto.SessionUser;
 import com.jojoldu.book.springboot.web.dto.PostsResponseDto;
 import com.jojoldu.book.springboot.service.PostsService;
 import jakarta.servlet.http.HttpSession;
-import org.h2.engine.Mode;
+//import org.h2.engine.Mode;
 import org.springframework.ui.Model;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
